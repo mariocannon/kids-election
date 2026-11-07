@@ -1,0 +1,15 @@
+{
+  "name": "kids-election",
+  "version": "1.0.0",
+  "description": "A pretend election for kids: sign up, printable ballots, QR check-in",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pdfkit": "^0.15.2",
+    "qrcode": "^1.5.4"
+  }
+}
